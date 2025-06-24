@@ -49,13 +49,6 @@ public class ThreeTimeLoadBalancer implements ReactorServiceInstanceLoadBalancer
                 }
             }
         }
-
-
-
         return new DefaultResponse(serviceInstance);
     }
-
-
-
-
 }
